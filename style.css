@@ -5,6 +5,7 @@
     overflow-x: hidden;
     align-items: center;
     user-select: none;
+    animation: comein 2s;
 }
 html {
     background-image: url('background.png');
@@ -13,7 +14,7 @@ html {
 }
 
 button {
-  transition: all .5s ease;
+  transition: all .125s ease;
   color: #fff;
   border: 3px solid white;
   text-transform: uppercase;
